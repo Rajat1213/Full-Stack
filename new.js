@@ -67,8 +67,7 @@
 // let b = a.split(' ');
 // let c = b.filter(val => val.length === 2).join( " & ")
 // console.log(c)
-{
+
 // let c = [{name:"r", age:60}, {name:"B", age:1}, {name:"Z", age:10}]
 // console.log(c.filter(val => val.age>10  & val.length != 3))
-
 
