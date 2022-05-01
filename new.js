@@ -28,7 +28,47 @@
 // let c = b.filter((ele) => ele <=3);
 // console.log(c)
 
-let a = [20,13,14,11,12];
-let b = a.sort()
-let c = b.filter((ele) => ele > 12);
-console.log(c)
+// let a = [20,13,14,11,12];
+// let b = a.sort()
+// let c = b.filter((ele) => ele > 12);
+// console.log(c)
+
+
+
+// let b = ["abc", "xyza", "abcde","abdef"]
+// let c = b.pop("abc", "xyza")
+// console.log(c);
+
+// let c = ["cars", "bike", "cycle"]
+// let d = c.slice(1).join(" and ")
+// console.log(d)
+
+// let c = ["abc", "xyza", "namey"]
+// let d = c.every(val => val.length>2)
+// if (d)
+// {
+//    console.log("hello")
+// }
+// else {
+//     console.log("HII")
+// }
+
+// let a = [30,40,50]
+// let b = [2,3,4]
+// let c = b.concat(a)
+// console.log(c)
+
+// let a = [30,40,50]
+// let b = [2,3,4]
+// let c = a.concat(b)
+// console.log(c)
+
+// let a = "Hi IM developer";
+// let b = a.split(' ');
+// let c = b.filter(val => val.length === 2).join( " & ")
+// console.log(c)
+{
+// let c = [{name:"r", age:60}, {name:"B", age:1}, {name:"Z", age:10}]
+// console.log(c.filter(val => val.age>10  & val.length != 3))
+
+
