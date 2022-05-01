@@ -71,3 +71,6 @@
 // let c = [{name:"r", age:60}, {name:"B", age:1}, {name:"Z", age:10}]
 // console.log(c.filter(val => val.age>10  & val.length != 3))
 
+// let a = [19,20,30]
+// let b = a.filter((ele) => ele >20);
+// console.log(b)
