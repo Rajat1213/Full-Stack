@@ -74,3 +74,26 @@
 // let a = [19,20,30]
 // let b = a.filter((ele) => ele >20);
 // console.log(b)
+
+// let obj={
+//     name:"R"
+// }
+// let b = JSON.stringify(obj)
+// console.log(b)
+
+// function rajat()
+// {
+//     let a = [a,b]
+//     localstorage.setItem('obj'.JSON.stringify(a));
+//     localstorage.getItem('obj')
+
+
+
+function localsave() {
+    localStorage.setItem("Name", "rajat");
+}
+function sessionsave() {
+    sessionStorage.setItem("Name2", "rajat");
+    // sessionStorage.removeItem("Name2", "rajat");
+}
+
