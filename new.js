@@ -89,11 +89,40 @@
 
 
 
-function localsave() {
-    localStorage.setItem("Name", "rajat");
-}
-function sessionsave() {
-    sessionStorage.setItem("Name2", "rajat");
-    // sessionStorage.removeItem("Name2", "rajat");
-}
+// function localsave() {
+//     localStorage.setItem("Name", "rajat");
+// }
+// function sessionsave() {
+//     sessionStorage.setItem("Name2", "rajat");
+//      sessionStorage.removeItem("Name2", "rajat");
+// }
 
+
+const [ab,ba] = [1,2,3,4]
+console.log(ab)
+console.log(ba)
+
+const [cd,de,...p] = [1,2,3,4]
+console.log(p)
+
+const{fname,lname} = {fname:'rajat', lname:'yadav'}
+console.log(fname)
+console.log(lname)
+
+//spread operator
+
+const aa = [34,5]
+const bb = [10,14,11]
+const cc = [aa,bb]
+
+console.log({cc});
+
+const dd = [...aa,...bb]
+console.log({dd});
+
+
+const a = [1,0,3,4]
+let [b,d,...e] = [1,3,6,8,9]
+console.log(b)
+console.log(d)
+console.log(...e)
